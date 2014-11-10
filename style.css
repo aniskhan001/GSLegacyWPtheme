@@ -24,7 +24,7 @@ body{
 /*Header*/
 header{
 	height: 100px;
-	position: fixed;
+	position: relative;
 	top: 0;
 	clear: both;
 	background: #ffffff;
@@ -786,3 +786,39 @@ i.game-loves img{
 	vertical-align: middle;
 }
 
+
+
+/********************/
+/*Wordpress Styles*/
+/********************/
+
+#content{
+	width: calc(70% - 60px); 
+	margin: 20px auto; 
+	padding: 30px; 
+	box-shadow: 0 0 100px #E2E2E2 inset;
+}
+
+#content .post h2{
+	text-transform: uppercase;
+	word-spacing: 5px;
+}
+
+#content .post h2 a{
+	text-decoration: none;
+	color: #000000;
+	text-shadow: 0 0 0.15em #C95FF4;
+	font-size: 1.2em;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+#content .post h2 a:hover{
+	text-shadow: 0 0 0.2em #00BCE8;
+}
+
+#content .post small{
+	font-style: italic;
+}
