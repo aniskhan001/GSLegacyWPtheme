@@ -12,6 +12,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="autocomplete/jquery.autocomplete.css" />
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<?php wp_head(); ?>
 </head>
 
 <body>
@@ -36,6 +37,7 @@
 					<li><a href="http://gamessuggestions.com/faq.php">FAQ</a><span class="menu-more">Frequently Asked Question</span></li>
 					<li><a href="http://gamessuggestions.com/about.php">About Us</a><span class="menu-more">About Our Site</span></li>
 					<li><a href="http://gamessuggestions.com/contact.php">Contact</a><span class="menu-more">Contact Us</span></li>
+					<li><a href="http://gamessuggestions.com/news">News</a><span class="menu-more">Games Suggestions News</span></li>
 				</ul>
 			</nav>
 			<!-- Menu -->

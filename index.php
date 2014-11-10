@@ -1,3 +1,4 @@
+<?php //The Template for displaying home page. ?>
 <?php get_header(); ?>
 
 <div id="content" class="site-content" role="main">
