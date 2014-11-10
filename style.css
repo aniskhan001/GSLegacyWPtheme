@@ -18,14 +18,28 @@ Tags: games, suggestions, action, adventure, racing, puzzle, simulation, sports,
 /*Wordpress Styles*/
 /********************/
 
+a{
+	color: #3fa0b7;
+	text-decoration: none;
+}
+
+a.more-link{
+	font-weight: bold;
+}
+
 header, footer{
 	position: relative;
 }
 
-#content{
-	width: calc(70% - 60px); 
+#content {
+	width: 70%;
 	margin: 20px auto; 
-	padding: 30px; 
+}
+
+#content .post{
+	width: calc(100% - 60px); 
+	padding: 15px 30px;
+	margin: 10px 0;
 	box-shadow: 0 0 100px #E2E2E2 inset;
 }
 
@@ -51,4 +65,9 @@ header, footer{
 
 #content .post small{
 	font-style: italic;
+}
+
+#content .post img{
+	max-width: 100%;
+	height: auto;
 }
