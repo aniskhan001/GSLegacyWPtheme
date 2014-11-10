@@ -95,7 +95,7 @@ nav.menu ul li a{
 }
 
 nav.menu ul li.home-btn {
-	background-image: url(../imgs/search.png);
+	background-image: url(http://gamessuggestions.com/imgs/search.png);
 	background-repeat: no-repeat;
 	padding-left: 22px;
 	background-position: 0 25px;
@@ -212,7 +212,7 @@ nav.menu ul li.home-btn {
 }
 
 .add-genre-filter{
-	background: url(../imgs/check.png) no-repeat;
+	background: url(http://gamessuggestions.com/imgs/check.png) no-repeat;
 	font-weight: bold;
 	padding-left: 35px;
 	padding-top: 2px;
@@ -228,7 +228,7 @@ nav.menu ul li.home-btn {
 }
 
 .add-genre-filter:hover, .add-genre-filter.selected{
-	background-image: url(../imgs/check_hover.png);
+	background-image: url(http://gamessuggestions.com/imgs/check_hover.png);
 	color: #111111;
 	cursor: pointer;
 }
@@ -263,7 +263,7 @@ footer{
 
 footer .rotate-disk{
 	display: none;
-	background: url(../imgs/disk.png);
+	background: url(http://gamessuggestions.com/imgs/disk.png);
 	width: 64px;
 	height: 64px;
 	position: absolute;

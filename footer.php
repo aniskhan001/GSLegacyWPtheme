@@ -15,14 +15,14 @@
 			<h3>We are social!</h3>
 			<p>Be sure to connect with us in the social media and share your thoughts.</p>
 			<ul>
-				<li><a target="_blank" href="https://www.facebook.com/pages/Games-Suggestions/1384639348485961"><img src="imgs/social-facebook.png" alt="Games Suggestions Facebook"></a></li>
-				<li><a target="_blank" href="https://twitter.com/GamesSuggestion"><img src="imgs/social-twitter.png" alt="Games Suggestions Twitter"></a></li>
-				<li><a target="_blank" href="https://plus.google.com/108388021995626188225"><img src="imgs/social-gplus.png" alt="Games Suggestions Google+"></a></li>
+				<li><a target="_blank" href="https://www.facebook.com/pages/Games-Suggestions/1384639348485961"><img src="http://gamessuggestions.com/imgs/social-facebook.png" alt="Games Suggestions Facebook"></a></li>
+				<li><a target="_blank" href="https://twitter.com/GamesSuggestion"><img src="http://gamessuggestions.com/imgs/social-twitter.png" alt="Games Suggestions Twitter"></a></li>
+				<li><a target="_blank" href="https://plus.google.com/108388021995626188225"><img src="http://gamessuggestions.com/imgs/social-gplus.png" alt="Games Suggestions Google+"></a></li>
 			</ul>
 		</div>
 
 		<p class="copyright">
-			<a target="_blank" href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.gamessuggestions.com%2F"><img src="imgs/html5.png" alt="HTML5 Validated"></a>
+			<a target="_blank" href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.gamessuggestions.com%2F"><img src="http://gamessuggestions.com/imgs/html5.png" alt="HTML5 Validated"></a>
 			<br><em>&copy; 2014 <strong>Games Suggestions</strong></em>
 		</p>
 	</div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title><?php wp_title(); ?></title>
+	<title><?php bloginfo('name'); ?></title>
 
 	<meta charset="utf-8">
 	<meta name="robots" content="index,follow">
@@ -23,8 +23,8 @@
 				<h1>Games Suggestions</h1>
 				<h2>Game suggestion &amp; recommendation search engine</h2>
 
-				<a href="index.php">
-					<img src="imgs/logo.jpg" alt="Games Suggestions">
+				<a href="http://gamessuggestions.com/">
+					<img src="http://gamessuggestions.com/imgs/logo.jpg" alt="Games Suggestions">
 				</a>
 			</div>
 			<!-- logo -->
