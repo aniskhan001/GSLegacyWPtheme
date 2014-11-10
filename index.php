@@ -1,3 +1,7 @@
-<?php include 'header.php'; ?>
+<?php get_header(); ?>
 
-<?php include 'footer.php'; ?>
+<div class="container">
+	
+</div>
+
+<?php get_footer(); ?>
