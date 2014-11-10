@@ -8,7 +8,7 @@
 	<meta name="keywords" content="game, games, suggestion, recommendation, search, engine">
 	<meta name="description" content="Game suggestions and recommendations for PC, PS3, PS4, Xbox, Nintendo Wii, PS Vita, iPhone/iPad and all available platforms.">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="autocomplete/jquery.autocomplete.css" />
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
