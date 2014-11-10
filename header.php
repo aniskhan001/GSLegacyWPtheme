@@ -32,10 +32,10 @@
 			<!-- Menu -->
 			<nav class="menu">
 				<ul>
-					<li class="home-btn"><a href="index.php">Home</a><span class="menu-more">GS Home Page</span></li>
-					<li><a href="faq.php">FAQ</a><span class="menu-more">Frequently Asked Question</span></li>
-					<li><a href="about.php">About Us</a><span class="menu-more">About Our Site</span></li>
-					<li><a href="contact.php">Contact</a><span class="menu-more">Contact Us</span></li>
+					<li class="home-btn"><a href="http://gamessuggestions.com/">Home</a><span class="menu-more">GS Home Page</span></li>
+					<li><a href="http://gamessuggestions.com/faq.php">FAQ</a><span class="menu-more">Frequently Asked Question</span></li>
+					<li><a href="http://gamessuggestions.com/about.php">About Us</a><span class="menu-more">About Our Site</span></li>
+					<li><a href="http://gamessuggestions.com/contact.php">Contact</a><span class="menu-more">Contact Us</span></li>
 				</ul>
 			</nav>
 			<!-- Menu -->
