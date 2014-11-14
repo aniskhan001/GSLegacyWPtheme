@@ -1,7 +1,7 @@
 <?php //The Template for displaying home page. ?>
 <?php get_header(); ?>
 
-<div id="content" class="site-content" role="main">
+<div id="content" role="main">
 	<div id="writing">
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
