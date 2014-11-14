@@ -100,3 +100,8 @@ header, footer{
 .postmetadata a[rel="tag"]:hover {
 	box-shadow: 0 0 10px #3fa0b7;
 }
+
+/*Comment section*/
+#comments {
+	clear: both;
+}

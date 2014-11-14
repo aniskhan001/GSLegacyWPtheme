@@ -19,6 +19,7 @@
     <div id="ads">
         
     </div>
+    <?php comments_template(); ?>
 </div><!-- #content -->
 
 <?php get_footer(); ?>
