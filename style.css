@@ -102,6 +102,6 @@ header, footer{
 }
 
 /*Comment section*/
-#comments {
+.gs-comment {
 	clear: both;
 }

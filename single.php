@@ -19,7 +19,11 @@
     <div id="ads">
         
     </div>
-    <?php comments_template(); ?>
+
+    <div class="gs-comment">
+        <?php comments_template(); ?>
+    </div>
+    
 </div><!-- #content -->
 
 <?php get_footer(); ?>
