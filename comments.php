@@ -6,10 +6,11 @@
             ));
 
             wp_list_comments(array(
-                'per_page' => 10, 
-                'reverse_top_level' => false,
+                'per_page' => 10,
+                'avatar_size'       => 64,
+                'reverse_top_level' => true,
                 'type' =>'comment',
-                'callback'=> 'mytheme_comment_style'
+                'callback'=> 'gs_comment_style'
             ), $comments);
         ?>
     </ol>
