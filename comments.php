@@ -2,7 +2,8 @@
     <ol class="commentlist">
         <?php
             $comments = get_comments(array(
-                'status' => 'approve'
+                'status' => 'approve',
+                'post_id' => get_the_ID()
             ));
 
             wp_list_comments(array(
