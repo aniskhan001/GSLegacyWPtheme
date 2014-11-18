@@ -104,4 +104,50 @@ header, footer{
 /*Comment section*/
 .gs-comment {
 	clear: both;
+	width: 70%;
 }
+
+ol.commentlist {
+	box-shadow: 0 0 40px #E0E0E0 inset;
+}
+
+#comments ul, #comments ol {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+#comments ul li, #comments ol li{
+	min-height: 64px;
+}
+
+.comment-author.vcard img {
+	float: left;
+	border-radius: 3px;
+}
+
+.comment-author.vcard p {
+	padding-left: 66px;
+}
+
+.comment-meta.commentmetadata {
+	margin-left: 66px;
+	font-size: 14px;
+}
+
+.comment-meta.commentmetadata a {
+	color: #B2B2B2;
+}
+
+.comment-meta.commentmetadata a:hover {
+	text-decoration: underline;
+}
+
+.comment-meta.commentmetadata a.comment-reply-link {
+	color: #3fa0b7;
+}
+
+cite.fn {
+	font-weight: bold;
+}
+
