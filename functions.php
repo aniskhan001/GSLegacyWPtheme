@@ -1,5 +1,20 @@
 <?php
 
+// Widget area
+function gs_legacy_widgets_init() {
+	register_sidebar(array(
+		'name' 			=> 'Main Sidebar',
+		'id' 			=> 'main_sidebar',
+		'before_widget' => '<aside>',
+		'after_widget' 	=> '</aside>',
+		'before_title' 	=> '<h4>',
+		'after_title' 	=> '</h4>'
+	));
+}
+
+add_action( 'init', 'gs_legacy_widgets_init' );
+
+// Comment section formatting
 function gs_comment_style($comment, $args, $depth){
 	$GLOBALS['comment'] = $comment;
 	?>

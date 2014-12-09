@@ -16,8 +16,8 @@
         <?php endwhile; endif; ?>
     </div>
 
-    <div id="ads">
-        
+    <div id="gs-sidebar">
+        <?php if (dynamic_sidebar('main_sidebar')) : else : endif; ?>        
     </div>
 
     <div class="gs-comment">
