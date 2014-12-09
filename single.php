@@ -21,6 +21,10 @@
     </div>
 
     <div class="gs-comment">
+        <?php if(get_comments_number() > 0) : ?>
+            <h3 class="reply-header">All Replies</h3>
+        <?php endif; ?>
+
         <?php comments_template(); ?>
     </div>
     
