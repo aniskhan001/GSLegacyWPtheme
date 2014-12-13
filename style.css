@@ -55,7 +55,12 @@ header, footer{
 	border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
 }
 
+#content #writing .post:last-child, #content #writing .post.type-post {
+	border: none;
+}
+
 #content #writing .post p{
+	text-align: justify;
 	font-size: 0.8em;
 }
 
@@ -119,8 +124,8 @@ header, footer{
 
 .reply-header span {
 	border: 1px solid #aaa;
-	border-radius: 6px;
-	padding: 10px;
+	border-radius: 4px;
+	padding: 5px 20px;
 	background: #fff;
 	z-index: 1;
 }
@@ -136,8 +141,22 @@ header, footer{
 	z-index: -1;
 }
 
+ol.commentlist > *{
+	clear: both;
+	overflow: hidden;
+}
+
 ol.commentlist > li{
-	border-top: 1px dotted rgba(0, 0, 0, 0.1);
+	border-top: 1px solid rgba(0,0,0,0.3);
+	padding-top: 10px;
+}
+
+ol.commentlist > li:first-child {
+	border: none;
+}
+
+#comments ol.commentlist ul.children {
+	padding-right: 0;
 }
 
 #comments ul, #comments ol {
@@ -152,15 +171,15 @@ ol.commentlist > li{
 
 #respond {
 	padding: 10px 20px;
-	border-top: 1px dotted rgba(0, 0, 0, 0.1);
 }
 
 #respond form textarea {
-	background: rgba(200, 240, 255, 0.3);
-	border-radius: 3px;
 	outline: none;
-	border: 1px dashed;
+	border: none;
+	border-top: 1px dashed #adadad;
+	border-bottom: 1px dashed #adadad;
 	resize: none;
+	width: 100%;
 }
 
 #reply-title {
@@ -180,15 +199,14 @@ ol.commentlist > li{
 
 .comment-author.vcard img {
 	float: left;
-	border-radius: 3px;
+	margin-right: 10px;
 }
 
 .comment-author.vcard p {
-	padding-left: 66px;
+	padding-left: 40px;
 }
 
 .comment-meta.commentmetadata {
-	margin-left: 66px;
 	font-size: 14px;
 }
 
@@ -200,11 +218,15 @@ ol.commentlist > li{
 	text-decoration: underline;
 }
 
-.comment-meta.commentmetadata a.comment-reply-link {
+.comment-author.vcard a.comment-reply-link {
 	color: #3fa0b7;
+	float: right;
 }
 
 cite.fn {
 	font-weight: bold;
+	display: block;
+	font-style: normal;
+	color: #4BA0B7;
 }
 
