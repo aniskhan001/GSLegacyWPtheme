@@ -3,6 +3,10 @@
 <?php get_header(); ?>
 
 <div id="content" role="main">
+    <div id="gs-sidebar">
+        <?php if (dynamic_sidebar('main_sidebar')) : else : endif; ?>
+    </div>
+
     <div id="writing">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
@@ -14,20 +18,15 @@
             <p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments »', '1 Comment »', '% Comments »'); ?></p>
         </div>
         <?php endwhile; endif; ?>
-    </div>
 
-    <div id="gs-sidebar">
-        <?php if (dynamic_sidebar('main_sidebar')) : else : endif; ?>        
-    </div>
+        <div class="gs-comment">
+            <?php if(get_comments_number() > 0) : ?>
+                <h3 class="reply-header">All Replies</h3>
+            <?php endif; ?>
 
-    <div class="gs-comment">
-        <?php if(get_comments_number() > 0) : ?>
-            <h3 class="reply-header">All Replies</h3>
-        <?php endif; ?>
-
-        <?php comments_template(); ?>
+            <?php comments_template(); ?>
+        </div>
     </div>
-    
 </div><!-- #content -->
 
 <?php get_footer(); ?>

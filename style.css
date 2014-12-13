@@ -114,8 +114,6 @@ header, footer{
 
 /*Comment section*/
 .gs-comment {
-	clear: both;
-	width: 70%;
 }
 
 .reply-header {

@@ -2,6 +2,10 @@
 <?php get_header(); ?>
 
 <div id="content" role="main">
+	<div id="gs-sidebar">
+		<?php if (dynamic_sidebar('main_sidebar')) : else : endif; ?>
+	</div>
+
 	<div id="writing">
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -11,10 +15,6 @@
 				<p><?php the_content("read more..."); ?></p>
 			</div>
 		<?php endwhile; ?>
-	</div>
-
-	<div id="gs-sidebar">
-		<?php if (dynamic_sidebar('main_sidebar')) : else : endif; ?>
 	</div>
 </div><!-- #content .site-content -->
 
