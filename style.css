@@ -69,21 +69,15 @@ header, footer{
 }
 
 #content #writing .post h2 a{
-	text-decoration: none;
 	color: #000000;
-	text-shadow: 0 0 0.15em #C95FF4;
-	-webkit-transition: all 0.6s ease;
-	-moz-transition: all 0.6s ease;
-	-ms-transition: all 0.6s ease;
-	transition: all 0.6s ease;
 }
 
 #content #writing .type-post h2 a{
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 #content #writing .post h2 a:hover{
-	text-shadow: 0 0 0.2em #00BCE8;
+	text-decoration: underline;
 }
 
 #content #writing .post small{
@@ -120,24 +114,26 @@ header, footer{
 	text-align: center;
 	margin: 0;
 	position: relative;
-	overflow: hidden;
-	text-shadow: 1px 1px 1px #7CE5FF;
-	color: #387888;
+	font-weight: normal;
+}
+
+.reply-header span {
+	border: 1px solid #aaa;
+	border-radius: 6px;
+	padding: 10px;
+	background: #fff;
+	z-index: 1;
 }
 
 .reply-header:before, .reply-header:after {
 	content: " ";
-	border-top: 1px solid #3FA0B7;
-	border-bottom: 1px solid #3FA0B7;
-	width: 400px;
+	border-top: 1px solid #aaa;
+	width: 100%;
 	position: absolute;
-	height: 7px;
-	margin-top: 7px;
-	right: 57%;
-}
-
-.reply-header:after {
-	left: 57%;
+	margin-top: 10px;
+	right: 0;
+	left: 0;
+	z-index: -1;
 }
 
 ol.commentlist > li{
