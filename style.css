@@ -118,6 +118,41 @@ header, footer{
 	height: 25px;
 }
 
+
+/*Siderbar*/
+
+#gs-sidebar aside {
+	position: relative;
+	text-align: center;
+}
+
+#gs-sidebar aside h4 {
+	background: #fff;
+	display: inline-block;
+	padding: 0 5px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #868686;
+	font-size: 0.9em;
+}
+
+#gs-sidebar aside h4:before, #gs-sidebar aside h4:after {
+	content: " ";
+	border-top: 1px dotted rgba(0, 0, 0, 0.08);
+	width: 100%;
+	position: absolute;
+	margin-top: 9px;
+	right: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#gs-sidebar aside ul {
+	text-align: left;
+	list-style-type: octal;
+}
+
 /*Comment section*/
 .gs-comment {
 }
