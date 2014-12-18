@@ -36,6 +36,7 @@ header, footer{
 #content {
 	width: 70%;
 	margin: 20px auto; 
+	overflow: hidden;
 }
 
 #content #writing {
@@ -51,8 +52,14 @@ header, footer{
 #content #writing .post{
 	width: calc(100% - 60px); 
 	padding: 0 30px;
-	margin: 10px 0;
+	margin-bottom: 10px;
 	border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+	clear: both;
+	overflow: hidden;
+}
+
+#content #writing .post h3 {
+	margin: 0 0 5px;
 }
 
 #content #writing .post:last-child, #content #writing .post.type-post {
@@ -98,21 +105,13 @@ header, footer{
 	margin-right: 10px;
 }
 
-.postmetadata a[rel="tag"] { /*tag styling*/
-	background: #3fa0b7;
-	color: #fff;
-	padding: 0 5px 2px;
-	border-radius: 5px;
-	margin: 0 2px;
-	text-shadow: 1px 1px 1px #000;
-	-webkit-transition: box-shadow 0.3s ease;
-	-moz-transition: box-shadow 0.3s ease;
-	-ms-transition: box-shadow 0.3s ease;
-	transition: box-shadow 0.3s ease;
-}
-
-.postmetadata a[rel="tag"]:hover {
-	box-shadow: 0 0 10px #3fa0b7;
+#content #writing .post .entry img {
+	float: none;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
 }
 
 /*Comment section*/
