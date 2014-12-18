@@ -114,6 +114,10 @@ header, footer{
 	margin: 0 auto;
 }
 
+#content #writing .wp-pagenavi {
+	height: 25px;
+}
+
 /*Comment section*/
 .gs-comment {
 }
