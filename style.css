@@ -95,7 +95,7 @@ header, footer{
 }
 
 #content #writing .post small{
-	font-style: italic;
+	color: #aaa;
 }
 
 #content #writing .post img{
