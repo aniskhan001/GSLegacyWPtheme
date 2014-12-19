@@ -94,8 +94,14 @@ header, footer{
 	text-decoration: underline;
 }
 
-#content #writing .post small{
+#content #writing .post small.post-time{
 	color: #aaa;
+	float: left;
+}
+
+#content #writing .post .post-views{
+	color: #aaa;
+	float: right;
 }
 
 #content #writing .post img{
@@ -103,6 +109,11 @@ header, footer{
 	width: 200px;
 	float: left;
 	margin-right: 10px;
+}
+
+#content #writing .post .entry, #content #writing .post .entry-home {
+	clear: both;
+	padding-top: 1px;
 }
 
 #content #writing .post .entry img {
@@ -114,12 +125,17 @@ header, footer{
 	margin: 0 auto;
 }
 
+/* Pagination */
 #content #writing .wp-pagenavi {
 	text-align: center;
 	height: 25px;
 	margin: 30px 0 15px;
 }
 
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background: #efefef;
+	border: 1px solid #BFBFBF !important;
+}
 
 /*Siderbar*/
 
@@ -153,6 +169,10 @@ header, footer{
 #gs-sidebar aside ul {
 	text-align: left;
 	list-style-type: octal;
+}
+
+#gs-sidebar aside ul li {
+	margin-bottom: 10px;
 }
 
 /*Comment section*/
