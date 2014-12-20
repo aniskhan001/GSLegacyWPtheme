@@ -96,11 +96,18 @@ header, footer{
 #content #writing .post small.post-time{
 	color: #aaa;
 	float: left;
+	font-size: 12px;
 }
 
 #content #writing .post .post-views{
 	color: #aaa;
 	float: right;
+	font-size: 12px;
+}
+
+.post-views.entry-meta > span.post-views-icon.dashicons {
+	font-size: 12px !important;
+	padding-top: 2px;
 }
 
 #content #writing .post img{

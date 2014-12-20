@@ -11,7 +11,7 @@
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="post">
 				<h3> <a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </a> </h3> <!-- post title -->
-	        	<small class="post-time"><?php the_time('n/j/y \a\t g:ia') ?></small> <!-- post date and time -->
+	        	<small class="post-time"><?php the_time('j F Y \a\t g:ia') ?></small> <!-- post date and time -->
             	<?php echo do_shortcode( '[post-views]' ); ?> <!-- post views -->
 				<div class="entry-home"><?php the_content("read more..."); ?></div>
 			</div>
