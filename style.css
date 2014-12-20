@@ -62,7 +62,7 @@ header, footer{
 	margin: 5px 0 5px;
 }
 
-#content #writing .post:nth-child(3), #content #writing .post.type-post {
+#content #writing .post:nth-last-child(2), #content #writing .post.type-post {
 	border: none;
 }
 
@@ -76,7 +76,6 @@ header, footer{
 }
 
 #content #writing .post h2{
-	text-transform: uppercase;
 	word-spacing: 5px;
 }
 
@@ -157,7 +156,7 @@ header, footer{
 
 #gs-sidebar aside h4:before, #gs-sidebar aside h4:after {
 	content: " ";
-	border-top: 1px dotted rgba(0, 0, 0, 0.08);
+	border-top: 1px solid rgba(0, 0, 0, 0.08);
 	width: 100%;
 	position: absolute;
 	margin-top: 9px;
@@ -169,6 +168,7 @@ header, footer{
 #gs-sidebar aside ul {
 	text-align: left;
 	list-style-type: octal;
+	margin-top: 0;
 }
 
 #gs-sidebar aside ul li {

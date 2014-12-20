@@ -5,7 +5,7 @@
 	<div class="footer">
 		<div class="footer-desc">
 			<p>
-				Our <strong>suggestion &amp; recommendation</strong> system will help you to find <strong>great game list</strong> to play next!<br>
+				Our <strong>game suggestion &amp; recommendation</strong> system will help you to find <strong>great game list</strong> to play next!<br>
 				We are always improving. Please tell your friends about us. The more we engage the greater the result will be!<br>
 				Please check <a href="faq.php">FAQs</a> if you are not sure how to use this site. Visit our site and enjoy your new favorites!
 			</p>
