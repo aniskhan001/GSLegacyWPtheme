@@ -11,8 +11,14 @@ function gs_legacy_widgets_init() {
 		'after_title' 	=> '</h4>'
 	));
 }
-
 add_action( 'init', 'gs_legacy_widgets_init' );
+
+// Disable more link scrolling
+function remove_more_link_scroll( $link ) {
+	$link = preg_replace( '|#more-[0-9]+|', '', $link );
+	return $link;
+}
+add_filter( 'the_content_more_link', 'remove_more_link_scroll' );
 
 // Comment section formatting
 function gs_comment_style($comment, $args, $depth){

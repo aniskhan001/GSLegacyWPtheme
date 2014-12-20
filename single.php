@@ -11,7 +11,7 @@
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
             <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2> <!-- post title -->
-            <small class="post-time"><?php the_time('j F Y \a\t g:ia') ?> </small> <!-- post date and time -->
+            <small class="post-time"><?php the_time('j<\s\u\p>S</\s\u\p> F Y \a\t g:ia') ?> </small> <!-- post date and time -->
             <?php echo do_shortcode( '[post-views]' ); ?> <!-- post views -->
             <div class="entry">
                 <?php the_content(); ?>

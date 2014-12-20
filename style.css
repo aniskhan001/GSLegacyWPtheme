@@ -77,6 +77,7 @@ header, footer{
 
 #content #writing .post h2{
 	word-spacing: 5px;
+	margin: 0;
 }
 
 #content #writing .post h2 a,
@@ -107,6 +108,7 @@ header, footer{
 
 .post-views.entry-meta > span.post-views-icon.dashicons {
 	font-size: 12px !important;
+	vertical-align: top !important;
 	padding-top: 2px;
 }
 
