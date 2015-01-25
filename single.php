@@ -3,6 +3,18 @@
 <?php get_header(); ?>
 
 <div id="content" role="main">
+    <div class="news-ads">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- top n -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:728px;height:90px"
+             data-ad-client="ca-pub-2030113156954700"
+             data-ad-slot="1091814663"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    
     <div id="gs-sidebar">
         <?php if (dynamic_sidebar('main_sidebar')) : else : endif; ?>
     </div>

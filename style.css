@@ -32,6 +32,12 @@ header, footer{
 	position: relative;
 }
 
+/*Header*/
+.news-ads{
+	width: 728px;
+	margin: 0 auto;
+}
+
 /*Content section*/
 #content {
 	width: 70%;
