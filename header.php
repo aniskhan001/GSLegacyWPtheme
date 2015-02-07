@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title><?php bloginfo('name'); ?></title>
+	<title>News Page | Game Recommendations | Game Finder | Games Suggestions</title>
 
 	<meta charset="utf-8">
 	<meta name="robots" content="index,follow">
-	<meta name="keywords" content="game, games, suggestion, recommendation, search, engine">
-	<meta name="description" content="Game suggestions and recommendations for PC, PS3, PS4, Xbox, Nintendo Wii, PS Vita, iPhone/iPad and all available platforms.">
+	<meta name="keywords" content="game suggestions, game recommendations, game finder, xbox game reviews, Games for Wii, all wii games, pc game list, new ps4 game, new iPhone game, ps vita game list">
+	<meta name="description" content="News Page – Get all latest games news and Games Suggestions on PS4, PS3, PS Vita, PC, Wii, Xbox One, iPhone and other iOS video games">
 
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
