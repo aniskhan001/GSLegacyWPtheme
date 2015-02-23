@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 	<meta name="robots" content="index,follow">
-	<meta name="keywords" content="game suggestions, game recommendations, game finder, xbox game reviews, Games for Wii, all wii games, pc game list, new ps4 game, new iPhone game, ps vita game list">
+	<meta name="keywords" content="game suggestions, game recommendations, game finder, xbox game recommendations, ps4 and pc game suggestions, iPad game suggestions and recommendations, games similar to, same games as, game finder, find games like, all games database">
 	<meta name="description" content="News Page – Get all latest games news and Games Suggestions on PS4, PS3, PS Vita, PC, Wii, Xbox One, iPhone and other iOS video games">
 
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/style.css">
