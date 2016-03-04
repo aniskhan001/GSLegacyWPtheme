@@ -35,12 +35,12 @@ header, footer{
 /*Header*/
 .news-ads{
 	width: 728px;
-	margin: 0 auto;
+	margin: 25px auto 50px;
 }
 
 /*Content section*/
 #content {
-	width: 70%;
+	width: 90%;
 	margin: 20px auto; 
 	overflow: hidden;
 }
@@ -181,6 +181,7 @@ header, footer{
 }
 
 #gs-sidebar aside ul {
+	font-size: 14px;
 	text-align: left;
 	list-style-type: octal;
 	margin-top: 0;
